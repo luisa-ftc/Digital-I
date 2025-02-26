@@ -1,23 +1,5 @@
 /*
-Basado en el codigo del profesor Ferney, con unas modificaciones para que los bits los envie en el flanco de subida
-Modulo:	SPI_ master 
-Autor: 	ferney alberto beltran 
-Curso: 	Digital 1
-Año:	 	2024
-
-Descripción:
-
-                     _______________
-                    |               |
-           clk -----|               |
-           rst -----|               |
- data_in [7:0] -----|               |---- sclk
-         start -----|               |---- mosi
-freq_div[15:0] -----|               |---- miso
-data_out [7:0] <----|               |---- cs
-          busy <----|               |
-         avail <----|               |
-                    |_______________|
+Basado en el codigo del profesor Ferney alberto beltran , con unas modificaciones para que los bits los envie en el flanco de subida
 
 CLK: 		Entrada del reloj del sistema.
 RST: 		Señal de reset que inicializa el módulo.
